@@ -1,0 +1,199 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    /* font-size: 20px; */
+    margin: 0 auto;
+    /* -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent; */
+}
+
+
+#main {
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0px;
+    width: 400px;
+    height: 100%;
+    background: #A1D6E2;
+    transition: all 0.5s ease;
+}
+
+.sidebar .top .hi-top{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sidebar .top {
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    background-color: #1995ad;
+}
+.sidebar .bottom {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 100px;
+   
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(6, 255, 251, 0.1);
+    border-bottom: 1px solid rgba(125, 134, 146, 0.302);
+    transition: all 0.5s ease;
+    background: #A1D6E2;
+    font-weight: 900; 
+}
+
+ul li:hover a {
+    background: #1995ad;
+    color: rgb(0, 0, 0);
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+#check {
+    display: none;
+}
+
+#btn {
+    position: fixed;
+    cursor: pointer;
+    background:#ffffff;
+    border-radius: 3px;
+}
+#btnclose {
+    position: fixed;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 3px;
+}
+
+
+#btn {
+    z-index: 1111;
+    left: 20px; 
+    top: 30px;
+    font-size: 20px;
+    color: #000000;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+}
+
+#btnclose {
+    z-index: 1111; 
+    left: 20px;
+    top: 30px;  
+    font-size: 20px;
+    color: #000000;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+}
+
+section {
+    height: 92vh;
+    width: 100%;
+    background: #f1f1f2;
+    background-position: center;
+    background-size: cover;
+}
+
+.head{
+    font-size: 64px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    padding-top: 30px;
+    font-size: 60px;
+    color: #000000;
+}
+
+/* table{
+    border-collapse: collapse;        
+    width: 100%;
+  
+}
+
+
+.tableKaryawan {
+    border:solid 2px rgb(9, 9, 9);
+    position: static;
+    padding-top: 0px;
+    height: 400px;
+    overflow: auto;
+    display: block;
+    margin-left: 80px; 
+    }
+*/
+th,tr,td{
+    border:solid 2px rgb(9, 9, 9);
+    height: 30px;
+    padding: 8px 15px;  
+    font-size: 18px;
+}
+
+th{
+    position:static;
+    top: 0;
+    background: #678eda;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    background: #678eda;
+} 
+
+  #searching{
+   margin-left: 80px; 
+   margin-top: 70px;
+   width: 500px;
+   height: 30px;
+   margin-bottom: 20px;
+  }
+  ion-icon {
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+  }
+
+  #footer {
+    position:relative;
+    margin-top: 5px;
+    font-size: 15px;
+    background: #1995ad;
+
+  }
+  #footer .footer-bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #footer .copyright {
+    margin-left: 40%;
+  }

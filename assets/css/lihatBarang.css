@@ -1,0 +1,115 @@
+body{
+    font-family:"Quattrocento";
+    color: #000000;
+    font-size: 25px;
+    margin: 0 auto;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+#main {
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+section {
+    height: 92vh;
+    width: 100%;
+    background: #f1f1f2;
+    background-position: center;
+    background-size: cover;
+    font-family:"Quattrocento";
+    color: #000000;
+    font-size: 25px;
+}
+
+.head{
+    font-size: 64px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 70px;
+    font-size: 60px;
+    color: #000000;
+    font-family: "Archivo";
+    letter-spacing: 2px;
+    background-color: #1995ad;
+}
+
+table{
+    border-collapse: collapse;        
+    width: 100%;
+  
+}
+
+.tableKaryawan {
+    border:solid 5px rgb(9, 9, 9);
+    position: static;
+    padding-top: 0px;
+    height: 600px;
+    overflow: auto;
+    display: block;
+    margin-left: 80px; 
+    }
+
+th,tr,td{
+    border:solid 2px rgb(9, 9, 9);
+    height: 30px;
+    padding: 8px 15px;
+    
+}
+
+th{
+    position:static;
+    top: 0;
+    background: #1995ad;
+}
+thead{
+    position: sticky;
+    top: 0;
+    background: #1995ad;
+   
+
+}
+
+  #searching{
+   margin-left: 80px; 
+   margin-top: 70px;
+   width: 450px;
+   height: 30px;
+   margin-bottom: 20px;
+  }
+  ion-icon {
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+  }
+
+  #footer {
+    font-size: 15px;
+    background: #1995ad;
+    margin-top: 51px;
+  }
+  #footer .footer-bottom{
+    padding-bottom: 15px;
+  }
+  #footer .copyright {
+    margin-left: 40%;
+  }
+  .kmbli-btn{
+    margin-left: 45%;
+    margin-top: 10px;
+    border: 1px solid;
+    width: 10%;
+    border-radius: 50px;
+    height: 50px;
+    background-color: #1995ad;
+    color: #000000;
+  }
+  .kmbli-btn:hover{
+    background-color: #A1D6E2;
+    color: #000000;
+  } 

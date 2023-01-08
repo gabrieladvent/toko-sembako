@@ -1,0 +1,254 @@
+body {
+    font-family: "Quattrocento";
+    color: #000000;
+    font-size: 20px;
+    margin: 0 auto;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-image: url(../RPL/iconToko.png);
+    background-repeat: no-repeat;
+    background-size:cover
+  }
+  
+  #main {
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .container-fluid{
+    height: 80px;
+  }
+  
+  #btn.fas.fa-bars.md.hydrated{
+    padding: 10px;   
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0px;
+    width: 400px;
+    height: 100%;
+    background: #A1D6E2;
+    transition: all 0.5s ease;
+  }
+  
+  .sidebar .top .hi-top{
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .sidebar .top {
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    background-color: #1995ad;
+  }
+  .sidebar .bottom {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 100px;
+   
+  }
+  
+  .sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(6, 255, 251, 0.1);
+    border-bottom: 1px solid rgba(125, 134, 146, 0.302);
+    transition: all 0.5s ease;
+    background: #A1D6E2;
+    font-weight: 900; 
+  }
+  
+  ul li:hover a {
+    background: #1995ad;
+    color: rgb(0, 0, 0);
+  }
+  
+  .sidebar ul a i {
+    margin-right: 16px;
+  }
+  
+  
+  #check {
+    display: none;
+  }
+  
+  #btn {
+    position: fixed;
+    cursor: pointer;
+    background:#ffffff;
+    border-radius: 3px;
+  }
+  #btnclose {
+    position: fixed;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 3px;
+  }
+  
+  
+  #btn {
+    z-index: 1111;
+    left: 20px; 
+    top: 30px;
+    font-size: 20px;
+    color: #000000;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+  }
+  
+  #btnclose {
+    z-index: 1111; 
+    left: 20px;
+    top: 30px;  
+    font-size: 20px;
+    color: #000000;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+  }
+  section {
+    height: 92vh;
+    width: 100%;
+    background: #f1f1f2;
+    background-position: center;
+    background-size: cover;
+    font-family: "Quattrocento";
+    font-size: 25px;
+  }
+  
+  #footer {
+    font-size: 15px;
+    background: #1995ad;
+    color: #f1f1f2;
+    margin-top: 40px;
+  }
+  #footer .footer-bottom{
+    padding-bottom: 15px;
+  }
+  #footer .copyright {
+    margin-left: 40%;
+    margin-top: 10px;
+  }
+  
+
+  
+  #header {
+    font-family: "Archivo";
+    font-size: 45px;
+  }
+  
+  #judulCombo {
+    font-family: candara;
+    font-size: 25px;
+    width: 120px;
+    background-color: #a1d6e2;
+    margin-left: 10px;
+    
+  }
+  #judulTahun {
+    font-family: "Quattrocento";
+    font-size: 25px;
+  }
+  #judulBulan {
+    font-family: "Quattrocento";
+    font-size: 25px;
+  }
+  
+  #judulTanggal {
+    font-family: "Quattrocento";
+    font-size: 25px;
+  }
+  
+  #tombolCari {
+    font-family: "Quattrocento";
+    width: 130px;
+    height: 45px;
+    font-size: 25px;
+    background-color: #1995ad;
+    color: black;
+    float: left;
+    margin-left: 140px;
+    border-radius: 25px;
+  }
+  #tombolCari:hover{
+    background-color: #a1d6e2;  
+  }
+  
+  #tombolUnduhAll {
+    font-family: "Quattrocento";
+    width: 160px;
+    font-size: 25px;
+    background-color: #1995ad;
+    color: black;
+    margin-left: 80%;
+    border-radius: 25px;
+    height: 45px;
+  }
+  #tombolUnduhAll:hover{
+    background-color: #a1d6e2;
+  }
+  
+  #headerTabel {
+    background-color: #1995ad;
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+  }
+  
+  .Bar {
+    position: relative;
+    height: 570px;
+    overflow-y: auto;
+  }
+  
+  .tabelScroll {
+    display: block;
+  }
+  #tabelIsi {
+    font-size: 20px;
+  }
+  
+  #totalPendapatan {
+    background-color: #a1d6e2;
+    font-size: 25px;
+    position: sticky;
+    bottom: 0;
+  }
+  
+  #dtVerticalScrollExxample{
+    border: 1px solid black;
+    font-family: "Quattrocento";
+    font-size: 25px;  
+    width: 970px;
+  }
+
+  .tombol-keluar{
+    margin-left: 25%;
+    margin-top: 10%;
+    border: 1px solid;
+    width: 30%;
+    border-radius: 50px;
+    height: 50px;
+    background-color: #1995ad;
+    color: #000000;
+  }
+  .tombol-keluar:hover{
+    background-color: #A1D6E2;
+    color: #000000;
+  } 

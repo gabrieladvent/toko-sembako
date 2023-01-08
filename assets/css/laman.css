@@ -1,0 +1,73 @@
+html,body{
+background-image: url('../foto/img2.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Quattrocento';
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: #a1d6e2c5;
+}
+
+.social_icon span:hover{
+color: rgb(0, 0, 0);
+cursor: pointer;
+
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #1995ad;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+font-size: 20px;
+}
+
+.login_btn{
+color: black;
+background-color: #1995ad;
+width: 358px;
+font-family: 'Quattrocento';
+font-size: 19px;
+margin-top: 5px;
+border-radius: 15px
+}
+
+.login_btn:hover{
+background-color: #A1d6e2;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: transparent;
+  }
+
+h5{
+    font-family: "Quattrocento"; 
+    font-size: 25px; 
+    color: rgb(0, 0, 0); 
+    letter-spacing: 2px;
+}

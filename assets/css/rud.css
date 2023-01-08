@@ -1,0 +1,312 @@
+table tr:not(:first-child) {
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}
+
+table tr:not(:first-child):hover {
+    background-color: #ddd;
+}
+
+
+.kepala {
+    font-family: "Archivo";
+    letter-spacing: 10px;
+}
+
+a {
+    position: static;
+}
+
+label .form-select-sm {
+    margin-right: 150px;
+    font-size: 12px;
+}
+
+label .form-select {
+    margin-right: 3px;
+}
+
+.tabel-sc {
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.form-control.form-control-sm {
+    margin-right: 205px;
+    font-size: 12px;
+}
+
+#form-edit{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: rgb(214, 206, 226);
+    font-size: 12px;
+    box-shadow: 10px 10px 5px rgb(126, 126, 126);
+}
+
+.gambar {
+    margin-left: 38%;
+    margin-top: 20px;
+}
+
+#isi-form {
+    margin-left: 90px;
+}
+form h3{
+    text-align: center;
+}
+
+
+th,
+tr,
+td {
+    border: solid 1px rgb(9, 9, 9);
+}
+
+thead {
+    top: 0;
+    position: sticky;
+    background: #37cfc8;
+    color: black;
+}
+
+th {
+    padding: 8px;
+}
+
+
+
+#kode {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 270px;
+    background-color: rgb(214, 206, 226);
+    border: none;
+    outline: none;
+}
+#background-edit{
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  background-image: url('https://img.freepik.com/free-vector/gradient-hexagonal-background_23-2148932756.jpg?w=740&t=st=1671506115~exp=1671506715~hmac=00927ac3d0475a90a6be90803d613825b37737066b0bf4287b37023288411cd5');
+}
+
+#nama {
+    margin-left: 37px;
+    width: 270px;
+}
+
+#harga {
+    margin-left: 37px;
+    width: 270px;
+}
+
+#no_telp {
+    margin-left: 37px;
+    width: 270px;
+}
+
+#stok {
+    margin-left: 47px;
+    width: 270px;
+}
+
+#edit {
+    margin-bottom: 20px;
+margin-left: 150px;
+}
+
+.btn-simpan {
+    margin-left: 25%;
+    background-color: #1995ad;
+    border: 1px black solid;
+    width: 20%;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.btn-simpan:hover {
+    background-color: #a1d6e2;
+}
+
+
+.judul {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0px;
+    padding-top: 30px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: "Quattrocento";
+    color: #000000;
+    font-size: 5px;
+    margin: 0 auto;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+#main {
+    font-family: "Quattrocento";
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    background: #A1D6E2;
+    transition: all 0.5s ease;
+}
+
+.sidebar .top .hi-top {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sidebar .top {
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+    background-color: #1995ad;
+}
+
+.sidebar .bottom {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 100px;
+
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(6, 255, 251, 0.1);
+    border-bottom: 1px solid rgba(125, 134, 146, 0.302);
+    transition: all 0.5s ease;
+    background: #A1D6E2;
+    font-weight: 900;
+}
+
+ul li:hover a {
+    background: #1995ad;
+    color: rgb(0, 0, 0);
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+
+#check {
+    display: none;
+}
+
+#btn {
+    position: fixed;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 3px;
+}
+
+#btnclose {
+    position: fixed;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 3px;
+}
+
+
+#btn {
+    z-index: 1111;
+    left: 15px;
+    top: 30px;
+    font-size: 15px;
+    color: #000000;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+}
+
+#btnclose {
+    z-index: 1111;
+    left: 15px;
+    top: 30px;
+    font-size: 15px;
+    color: #000000;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+}
+
+
+section {
+    height: 92vh;
+    width: 100%;
+    background: #f1f1f2;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#footer {
+    position: relative;
+    margin-top: 5px;
+    font-size: 15px;
+    background: #1995ad;
+
+}
+
+#footer .footer-bottom {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer .copyright {
+    margin-left: 40%;
+}
+
+.tombol-keluar{
+    margin-left: 25%;
+    margin-top: 10%;
+    border: 1px solid;
+    width: 30%;    
+    border-radius: 50px;
+    height: 30%;
+    background-color: #1995ad;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Quattrocento";
+  }
+  .tombol-keluar:hover{
+    background-color: #A1D6E2;
+    color: #000000;
+  } 
+  #keluar{
+    background-color: #A1D6E2;
+  }

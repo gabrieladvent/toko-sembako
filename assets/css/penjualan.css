@@ -1,0 +1,286 @@
+body{
+    font-family: "Quattrocento";
+    color: #000000;
+    font-size: 20px;
+    margin: 0 auto;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-image: url("assets\foto\logoResol.png");
+    background-repeat: no-repeat;
+   background-size:cover
+}
+
+
+#main {
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-right: 80px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0px;
+    width: 400px;
+    height: 100%;
+    background: #A1D6E2;
+    transition: all 0.5s ease;
+  }
+  
+  .sidebar .top .hi-top{
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .sidebar .top {
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    background-color: #1995ad;
+  }
+  .sidebar .bottom {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 100px;
+   
+  }
+  
+  .sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(6, 255, 251, 0.1);
+    border-bottom: 1px solid rgba(125, 134, 146, 0.302);
+    transition: all 0.5s ease;
+    background: #A1D6E2;
+    font-weight: 900; 
+  }
+  
+  ul li:hover a {
+    background: #1995ad;
+    color: rgb(0, 0, 0);
+  }
+  
+  .sidebar ul a i {
+    margin-right: 16px;
+  }
+  
+  
+  #check {
+    display: none;
+  }
+  
+  #btn {
+    position: fixed;
+    cursor: pointer;
+    background:#ffffff;
+    border-radius: 3px;
+  }
+  #btnclose {
+    position: fixed;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 3px;
+  }
+#btn {
+    z-index: 1111;
+    left: 20px; 
+    top: 30px;
+    font-size: 20px;
+    color: #000000;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+}
+
+#btnclose {
+    z-index: 1111; 
+    left: 20px;
+    top: 30px;  
+    font-size: 20px;
+    color: #000000;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+}
+
+
+section {
+    height: 92vh;
+    width: 100%;
+    background: #f1f1f2;
+    background-position: center;
+    background-size: cover;
+}
+
+.h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;  
+    font-family: "Archivo";
+    margin-left: 33%;
+    letter-spacing: 5px;
+}
+
+.h3{
+    font-family: "Quattrocento";
+}
+
+  ion-icon {
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+  }
+
+  #footer {
+    font-size: 15px;
+    background: #1995ad;
+  }
+  
+  #footer .footer-bottom {
+    color: #fff;
+    margin-top: 2%;
+  }
+  
+  #footer .copyright {
+    float: center;
+  }
+
+  .Bar{
+    position: relative;
+    height: 45ch;
+    width: 100%;
+    overflow-y: auto;
+    border: 3px solid black;
+}
+
+.tabelScroll{
+    display: block;
+}
+
+#dtVerticalScrollExxample{
+    border: 1px solid black;
+    font-family: "Quattrocento";
+    font-size: 25px;  
+    width: 100%;
+}
+
+thead{
+    background-color: #71d5ea;
+    position: sticky;
+    top: 0;
+}
+
+#totalPendapatan{
+    background-color: #71d5ea;
+}
+
+#dtVerticalScrollExxample td,tr{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
+
+.combo{
+    margin-left: 100px;
+}
+
+#tdtahun{
+    font-family: "Quattrocento";;
+    font-size: 25px;
+}
+
+#comboTahun{
+    font-family: "Quattrocento";
+    height: 30px;
+    width: 125px;
+    font-size: 25px;
+    background-color: #71d5ea;
+}
+
+#bulan{
+    font-family: "Quattrocento";;
+    font-size: 25px;
+}
+
+#comboBulan{
+    font-family: "Quattrocento";
+    height: 30px;
+    width: 125px;
+    font-size: 25px;
+    background-color: #71d5ea;
+}
+
+#tanggal{
+    font-family: "Quattrocento";;
+    font-size: 25px;
+}
+
+#comboTanggal{
+    font-family: "Quattrocento";
+    height: 30px;
+    width: 125px;
+    font-size: 25px;
+    background-color: #71d5ea;
+}
+
+#tombolCari{
+    font-family: "Quattrocento";
+    width: 150px;
+    height: 35px;
+    font-size: 25px;
+    margin: auto;
+    background-color: #71d5ea;
+    border-radius: 20px;
+}
+#tombolCari:hover{
+    background-color: #1995ad
+}
+
+#tombolUnduhAll{
+    font-family: "Quattrocento";
+    height: 35px;
+    width: 200px;
+    font-size: 25px;
+    margin-top: 23px;
+    margin-left: 45%;
+    background-color: #71d5ea;
+    border-radius: 20px;
+}
+#tombolUnduhAll:hover{
+    background-color: #1995ad
+}
+
+#comboFile{
+    font-family: "Quattrocento";
+    height: 35px;
+    width: 195px;
+    font-size: 20px;
+    margin-left: 630px;
+    background-color: #71d5ea;
+}
+
+.titel{
+    height: 5ch;
+    font-stretch: ultra-condensed;
+    margin-left: auto;
+    background-color: #1995ad;
+  }
+  .titel-tulis{
+    font-size: 50px;
+    text-align: center; 
+    font-family: "Archivo";
+  }
