@@ -18,3 +18,9 @@ Jika ada yang berkenan berkolaborasi untuk memantapkannya, kami sangat terbuka.
 1. Di sini kami menggunakan bahasa pemograman PHP dasar, css, dan js
 2. Untuk DBMS kami menggunakan MySql
 3. Selain itu, kami juga menggunakan Bootstrap
+
+Salam hangat dari kami:
+1. Hildegardis Weko
+2. Maria Ribka
+3. Marcelino Sali
+4. Gabriel Advent
